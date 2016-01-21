@@ -10,11 +10,14 @@
 *.lai
 *.la
 *.a
-*.dll
-*.pdb
 
-# corona devkit files
-devkit/
-deployment/
-mtco_devmodule/bin/
-mayaToCoronaExamples/
+# Compiled Python scripts
+*.pyc
+Debug/
+Release/
+x64/
+ipch/
+Release2014/
+*.sdf
+*.suo
+*.opensdf
