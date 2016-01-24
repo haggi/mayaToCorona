@@ -1,568 +1,568 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug2014|x64">
-      <Configuration>Debug2014</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug2015|x64">
-      <Configuration>Debug2015</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug2016|x64">
-      <Configuration>Debug2016</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug2017|x64">
-      <Configuration>Debug2017</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release2014|x64">
-      <Configuration>Release2014</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release2015|x64">
-      <Configuration>Release2015</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release2016|x64">
-      <Configuration>Release2016</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-  </ItemGroup>
-  <PropertyGroup Label="Globals">
-    <ProjectGuid>{13DB921B-B2E7-42AA-8B4D-34B7CE3E5F43}</ProjectGuid>
-  </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-  </PropertyGroup>
-  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug2014|x64'">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v100</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2014|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2015|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2016|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <ImportGroup Label="ExtensionSettings">
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2014|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(Configuration).props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(Configuration).props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(Configuration).props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(Configuration).props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2014|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(Configuration).props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2015|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(Configuration).props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2016|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(Configuration).props" />
-  </ImportGroup>
-  <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">
-    <OutDir>..\mtco_devmodule\plug-ins</OutDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2015|x64'">
-    <OutDir>..\mtco_devmodule\2015\plug-ins</OutDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2016|x64'" />
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2014|x64'">
-    <ClCompile>
-      <AdditionalOptions>/Zi /I "." /c %(AdditionalOptions)</AdditionalOptions>
-      <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>.;$(OSL)\include;$(OIIO)/include;$(ILM_BASE)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>CORONA_RELEASE_ASSERTS;_MBCS;OSL_STATIC_LIBRARY;USE_BOOST_WAVE;OSL_LLVM_VERSION=34;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;OIIO_STATIC_BUILD=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
-      <OutputFile>$(Configuration)\$(ProjectName).mll</OutputFile>
-      <ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
-      <ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>H:\UserDatenHaggi\Documents\coding\oiio\deploy\lib;H:\UserDatenHaggi\Documents\coding\OpenShadingLanguage\deploy\lib;H:\UserDatenHaggi\Documents\coding\openExr\depoly2.10\static\exr\lib;H:\UserDatenHaggi\Documents\coding\openExr\depoly2.10\static\ilmbase\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>oslexec_d.lib;oslcomp_d.lib;oslquery_d.lib;H:\UserDatenHaggi\Documents\coding\llvm\llvm-3.4Deploy\Debug\lib\*.lib;Half_d.lib;Iex-2_1_d.lib;Imath-2_1_d.lib;IlmThread-2_1_d.lib;H:\UserDatenHaggi\Documents\coding\oiio\deploy\lib\OpenImageIO_d.lib;H:\UserDatenHaggi\Documents\coding\zlib\zlib-1.2.8Deploy\lib\zlibstatic.lib;H:\UserDatenHaggi\Documents\coding\png\png1610Deploy_vc10\lib\libpng16_static.lib;H:\UserDatenHaggi\Documents\coding\tiff\libtiff3.9.4Deploy\lib\libtiff.lib;H:\UserDatenHaggi\Documents\coding\jpg\jpeg-9aDeploy_vs2010\lib\jpeg.lib;IlmImf-2_1_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-    </Link>
-    <PostBuildEvent>
-      <Command>copy $(Configuration)\$(ProjectName).mll ..\mtco_devmodule\plug-ins\$(ProjectName)_maya2014.mll</Command>
-    </PostBuildEvent>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">
-    <ClCompile>
-      <Optimization>Disabled</Optimization>
-      <PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4996;4244;4305</DisableSpecificWarnings>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
-      <ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
-      <ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libboost_regex-vc120-mt-gd-1_55.lib;libboost_wave-vc120-mt-gd-1_55.lib;%(AdditionalDependencies)</AdditionalDependencies>
-    </Link>
-    <PostBuildEvent />
-    <PostBuildEvent />
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">
-    <ClCompile>
-      <AdditionalOptions>/Zi /I "." /c %(AdditionalOptions)</AdditionalOptions>
-      <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>HAS_OVERRIDE;CORONA_RELEASE_ASSERTS;_MBCS;OSL_STATIC_LIBRARY;USE_BOOST_WAVE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;OIIO_STATIC_BUILD=1;OSL_FAST_MATH=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4996;4244;4305</DisableSpecificWarnings>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
-      <ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
-      <ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>libboost_regex-vc120-mt-gd-1_55.lib;libboost_wave-vc120-mt-gd-1_55.lib;%(AdditionalDependencies)</AdditionalDependencies>
-    </Link>
-    <PostBuildEvent />
-    <PostBuildEvent>
-      <Command>
-      </Command>
-    </PostBuildEvent>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">
-    <ClCompile>
-      <AdditionalOptions>/Zi /I "." /c %(AdditionalOptions)</AdditionalOptions>
-      <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>HAS_OVERRIDE;CORONA_RELEASE_ASSERTS;_MBCS;OSL_STATIC_LIBRARY;USE_BOOST_WAVE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;OIIO_STATIC_BUILD=1;OSL_FAST_MATH=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4996;4244;4305</DisableSpecificWarnings>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
-      <ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
-      <ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>libboost_regex-vc120-mt-gd-1_55.lib;libboost_wave-vc120-mt-gd-1_55.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)$(TargetName)_maya2016$(TargetExt)</OutputFile>
-    </Link>
-    <PostBuildEvent />
-    <PostBuildEvent>
-      <Command>
-      </Command>
-    </PostBuildEvent>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2014|x64'">
-    <ClCompile>
-      <AdditionalOptions>/c %(AdditionalOptions)</AdditionalOptions>
-      <PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
-      <ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
-      <ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
-    </Link>
-    <PostBuildEvent />
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2015|x64'">
-    <ClCompile>
-      <AdditionalOptions>/c /Zc:inline %(AdditionalOptions)</AdditionalOptions>
-      <PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
-      <ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
-    </Link>
-    <PostBuildEvent />
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2016|x64'">
-    <ClCompile>
-      <AdditionalOptions>/c /Zc:inline %(AdditionalOptions)</AdditionalOptions>
-      <PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
-      <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
-    </ClCompile>
-    <Link>
-      <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
-      <ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
-    </Link>
-    <PostBuildEvent />
-  </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaObject.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayarendernodes\rendercmd.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayarendernodes\renderGlobalsNode.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayarendernodes\standinLocatorNode.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayarendernodes\standinMeshNode.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaScene.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaSceneFactory.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaSceneParsing.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaSceneUtils.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\memory\memoryInfo.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\osl\oslUtils.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\renderGlobals.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\renderGlobalsFactory.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\rendering\renderer.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\renderProcess.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\shadingtools\material.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\shadingtools\shaderDefs.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\shadingtools\shadingNode.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\shadingtools\shadingUtils.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchRenderer.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchRendererInterfaceFactory.h" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\threads\Compute.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\threads\queue.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\threads\renderQueueWorker.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\threads\threads.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\translators\meshTranslator.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\attrTools.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\logging.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\meshTools.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\MiniMap.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\pystring.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\tools.cpp" />
-    <ClCompile Include="..\..\mayaToCommon\cpp\world.cpp" />
-    <ClCompile Include="..\src\coronaOSL\coronaOSLMapUtil.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\coronaOSL\oslRenderer.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaAOShader.cpp" />
-    <ClCompile Include="..\src\Corona\CoronaCamera.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaFrontBack.cpp" />
-    <ClCompile Include="..\src\Corona\CoronaImage.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaMap.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaMixNormals.cpp" />
-    <ClCompile Include="..\src\Corona\CoronaOSLMap.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaPasses.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaCallbacks.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\Corona.cpp" />
-    <ClCompile Include="..\src\Corona\CoronaGeometry.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaLights.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaRoundCorners.cpp" />
-    <ClCompile Include="..\src\Corona\CoronaSettings.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaShaders.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaShadersOrig.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaSky.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaUtils.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaWire.cpp" />
-    <ClCompile Include="..\src\Corona\CoronaWorld.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\mayaToCorona.cpp" />
-    <ClCompile Include="..\src\mtco_common\mtco_mayaObject.cpp" />
-    <ClCompile Include="..\src\mtco_common\mtco_mayaObjectFactory.cpp" />
-    <ClCompile Include="..\src\mtco_common\mtco_mayaRenderer.cpp" />
-    <ClCompile Include="..\src\mtco_common\mtco_rendererFactory.cpp" />
-    <ClCompile Include="..\src\mtco_common\mtco_renderGlobals.cpp" />
-    <ClCompile Include="..\src\mtco_common\mtco_renderGlobalsNode.cpp" />
-    <ClCompile Include="..\src\mtco_common\mtco_swatchRenderer.cpp" />
-    <ClCompile Include="..\src\mtco_common\mtco_swatchRendererInterfaceFactory.cpp" />
-    <ClCompile Include="..\src\pluginMain.cpp" />
-    <ClCompile Include="..\src\rvCmd.cpp" />
-    <ClCompile Include="..\src\shaders\coronaAO.cpp" />
-    <ClCompile Include="..\src\shaders\coronaFrontBackShader.cpp" />
-    <ClCompile Include="..\src\shaders\coronaLayeredMaterial.cpp" />
-    <ClCompile Include="..\src\shaders\coronaLightMaterial.cpp" />
-    <ClCompile Include="..\src\shaders\coronaLightMaterialOverride.cpp" />
-    <ClCompile Include="..\src\shaders\coronaOSLNode.cpp" />
-    <ClCompile Include="..\src\shaders\coronaRaytypeMaterial.cpp" />
-    <ClCompile Include="..\src\shaders\coronaRoundCornersShader.cpp" />
-    <ClCompile Include="..\src\shaders\coronaSkyShader.cpp" />
-    <ClCompile Include="..\src\shaders\coronaSurfaceMaterial.cpp" />
-    <ClCompile Include="..\src\shaders\coronaSurfaceMaterialOverride.cpp" />
-    <ClCompile Include="..\src\shaders\coronaVolumeMaterial.cpp" />
-    <ClCompile Include="..\src\shaders\coronaVolumeMaterialOverride.cpp" />
-    <ClCompile Include="..\src\shaders\coronaWireShader.cpp" />
-    <ClCompile Include="..\src\shaders\materialBase.cpp" />
-    <ClCompile Include="..\src\shaders\materialBaseOverride.cpp" />
-    <ClCompile Include="..\src\shaders\TestShader.cpp" />
-    <ClCompile Include="..\src\shaders\textureBase.cpp" />
-    <ClCompile Include="..\src\Corona\CoronaEnvironment.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayaObject.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayaObjectFactory.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayarendernodes\rendercmd.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayarendernodes\renderGlobalsNode.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayarendernodes\standinLocatorNode.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayarendernodes\standinMeshNode.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayaScene.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayaSceneFactory.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\memory\memoryInfo.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\osl\oslUtils.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\renderGlobals.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\renderGlobalsFactory.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\rendering\renderer.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\rendering\rendererFactory.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\renderProcess.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\shadingtools\material.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\shadingtools\shaderDefs.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\shadingtools\shadingNode.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\shadingtools\shadingUtils.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchGeometry.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchRenderer.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchRendererInterface.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\threads\Compute.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\threads\queue.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\threads\renderQueueWorker.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\threads\threads.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\translators\meshTranslator.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\attrTools.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\logging.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\meshTools.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\MiniMap.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\pystring.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\tools.h" />
-    <ClInclude Include="..\..\mayaToCommon\cpp\world.h" />
-    <ClInclude Include="..\mtco_devmodule\shaders\mayaUtils.h" />
-    <ClInclude Include="..\mtco_devmodule\shaders\noise_utils.h" />
-    <ClInclude Include="..\mtco_devmodule\shaders\oslutil.h" />
-    <ClInclude Include="..\mtco_devmodule\shaders\stdosl.h" />
-    <ClInclude Include="..\src\coronaOSL\coronaOSLMapUtil.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\coronaOSL\oslRenderer.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaAOShader.h" />
-    <ClInclude Include="..\src\Corona\CoronaCamera.h" />
-    <ClInclude Include="..\src\Corona\CoronaFrontBack.h" />
-    <ClInclude Include="..\src\Corona\CoronaGeometry.h" />
-    <ClInclude Include="..\src\Corona\CoronaLights.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaMap.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaMixNormals.h" />
-    <ClInclude Include="..\src\Corona\CoronaOSLMap.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\Corona.h" />
-    <ClInclude Include="..\src\Corona\CoronaRoundCorners.h" />
-    <ClInclude Include="..\src\Corona\CoronaShaders.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaSky.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaTestScene.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaUtils.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaTestClasses.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaVFB.h" />
-    <ClInclude Include="..\src\Corona\CoronaWire.h" />
-    <ClInclude Include="..\src\mayaToCorona.h" />
-    <ClInclude Include="..\src\mtco_common\mtco_mayaObject.h" />
-    <ClInclude Include="..\src\mtco_common\mtco_mayaRenderer.h" />
-    <ClInclude Include="..\src\mtco_common\mtco_renderGlobalsNode.h" />
-    <ClInclude Include="..\src\mtco_common\mtco_swatchRenderer.h" />
-    <ClInclude Include="..\src\rvCmd.h" />
-    <ClInclude Include="..\src\shaders\coronaAO.h" />
-    <ClInclude Include="..\src\shaders\coronaFrontBackShader.h" />
-    <ClInclude Include="..\src\shaders\coronaLayeredMaterial.h" />
-    <ClInclude Include="..\src\shaders\coronaLightMaterial.h" />
-    <ClInclude Include="..\src\shaders\coronaLightMaterialOverride.h" />
-    <ClInclude Include="..\src\shaders\coronaOSLNode.h" />
-    <ClInclude Include="..\src\shaders\coronaRaytypeMaterial.h" />
-    <ClInclude Include="..\src\shaders\coronaRoundCornersShader.h" />
-    <ClInclude Include="..\src\shaders\coronaSkyShader.h" />
-    <ClInclude Include="..\src\shaders\coronaSurfaceMaterial.h" />
-    <ClInclude Include="..\src\shaders\coronaSurfaceMaterialOverride.h" />
-    <ClInclude Include="..\src\shaders\coronaVolumeMaterial.h" />
-    <ClInclude Include="..\src\shaders\coronaVolumeMaterialOverride.h" />
-    <ClInclude Include="..\src\shaders\coronaWireShader.h" />
-    <ClInclude Include="..\src\shaders\materialBase.h" />
-    <ClInclude Include="..\src\shaders\materialBaseOverride.h" />
-    <ClInclude Include="..\src\shaders\TestShader.h" />
-    <ClInclude Include="..\src\shaders\textureBase.h" />
-    <ClInclude Include="..\src\Version.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\mtco_devmodule\resources\mayaStart.bat" />
-    <None Include="..\mtco_devmodule\shaders\blendColors.osl" />
-    <None Include="..\mtco_devmodule\shaders\bulge.osl" />
-    <None Include="..\mtco_devmodule\shaders\bump2d.osl" />
-    <None Include="..\mtco_devmodule\shaders\checker.osl" />
-    <None Include="..\mtco_devmodule\shaders\clamp.osl" />
-    <None Include="..\mtco_devmodule\shaders\colorToFloat.osl" />
-    <None Include="..\mtco_devmodule\shaders\condition.osl" />
-    <None Include="..\mtco_devmodule\shaders\constant.osl" />
-    <None Include="..\mtco_devmodule\shaders\contrast.osl" />
-    <None Include="..\mtco_devmodule\shaders\CoronaOSL.osl" />
-    <None Include="..\mtco_devmodule\shaders\file.osl" />
-    <None Include="..\mtco_devmodule\shaders\floatToColor.osl" />
-    <None Include="..\mtco_devmodule\shaders\floatToVector.osl" />
-    <None Include="..\mtco_devmodule\shaders\gammaCorrect.osl" />
-    <None Include="..\mtco_devmodule\shaders\grid.osl" />
-    <None Include="..\mtco_devmodule\shaders\hsvToRgb.osl" />
-    <None Include="..\mtco_devmodule\shaders\luminance.osl" />
-    <None Include="..\mtco_devmodule\shaders\multiplyDivide.osl" />
-    <None Include="..\mtco_devmodule\shaders\noise.osl" />
-    <None Include="..\mtco_devmodule\shaders\OSLInterface.osl" />
-    <None Include="..\mtco_devmodule\shaders\place2dTexture.osl" />
-    <None Include="..\mtco_devmodule\shaders\place3dTexture.osl" />
-    <None Include="..\mtco_devmodule\shaders\projection.osl" />
-    <None Include="..\mtco_devmodule\shaders\ramp.osl" />
-    <None Include="..\mtco_devmodule\shaders\reverse.osl" />
-    <None Include="..\mtco_devmodule\shaders\rgbToHsv.osl" />
-    <None Include="..\mtco_devmodule\shaders\samplerInfo.osl" />
-    <None Include="..\mtco_devmodule\shaders\samplerInfoNode.osl" />
-    <None Include="..\mtco_devmodule\shaders\setRange.osl" />
-    <None Include="..\mtco_devmodule\shaders\solidFractal.osl" />
-    <None Include="..\mtco_devmodule\shaders\test.osl" />
-    <None Include="..\mtco_devmodule\shaders\utilityNodes.osl" />
-    <None Include="..\mtco_devmodule\shaders\vectorToFloat.osl" />
-  </ItemGroup>
-  <ItemGroup>
-    <Xml Include="..\mtco_devmodule\plug-ins\CoronaLight.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaLightAccum.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaOutput.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaCombiner.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaDiffuse.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaGeom.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaPassThrough.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaSpecular.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\CoronaSurface.xml" />
-    <Xml Include="..\mtco_devmodule\plug-ins\CoronaVolume.xml" />
-    <Xml Include="..\mtco_devmodule\resources\CoronaRenderer.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\mtco_devmodule\resources\releaseNotes.txt" />
-    <Text Include="..\mtco_devmodule\resources\shaderDefinitions.txt" />
-  </ItemGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-  </ImportGroup>
+<ItemGroup Label="ProjectConfigurations">
+<ProjectConfiguration Include="Debug2014|x64">
+<Configuration>Debug2014</Configuration>
+<Platform>x64</Platform>
+</ProjectConfiguration>
+<ProjectConfiguration Include="Debug2015|x64">
+<Configuration>Debug2015</Configuration>
+<Platform>x64</Platform>
+</ProjectConfiguration>
+<ProjectConfiguration Include="Debug2016|x64">
+<Configuration>Debug2016</Configuration>
+<Platform>x64</Platform>
+</ProjectConfiguration>
+<ProjectConfiguration Include="Debug2017|x64">
+<Configuration>Debug2017</Configuration>
+<Platform>x64</Platform>
+</ProjectConfiguration>
+<ProjectConfiguration Include="Release2014|x64">
+<Configuration>Release2014</Configuration>
+<Platform>x64</Platform>
+</ProjectConfiguration>
+<ProjectConfiguration Include="Release2015|x64">
+<Configuration>Release2015</Configuration>
+<Platform>x64</Platform>
+</ProjectConfiguration>
+<ProjectConfiguration Include="Release2016|x64">
+<Configuration>Release2016</Configuration>
+<Platform>x64</Platform>
+</ProjectConfiguration>
+</ItemGroup>
+<PropertyGroup Label="Globals">
+<ProjectGuid>{13DB921B-B2E7-42AA-8B4D-34B7CE3E5F43}</ProjectGuid>
+</PropertyGroup>
+<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+<ConfigurationType>DynamicLibrary</ConfigurationType>
+</PropertyGroup>
+<PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug2014|x64'">
+<ConfigurationType>DynamicLibrary</ConfigurationType>
+<PlatformToolset>v100</PlatformToolset>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'" Label="Configuration">
+<ConfigurationType>DynamicLibrary</ConfigurationType>
+<PlatformToolset>v120</PlatformToolset>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'" Label="Configuration">
+<ConfigurationType>DynamicLibrary</ConfigurationType>
+<PlatformToolset>v120</PlatformToolset>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'" Label="Configuration">
+<ConfigurationType>DynamicLibrary</ConfigurationType>
+<PlatformToolset>v120</PlatformToolset>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2014|x64'" Label="Configuration">
+<ConfigurationType>DynamicLibrary</ConfigurationType>
+<PlatformToolset>v120</PlatformToolset>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2015|x64'" Label="Configuration">
+<ConfigurationType>DynamicLibrary</ConfigurationType>
+<PlatformToolset>v120</PlatformToolset>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2016|x64'" Label="Configuration">
+<ConfigurationType>DynamicLibrary</ConfigurationType>
+<PlatformToolset>v120</PlatformToolset>
+</PropertyGroup>
+<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+<ImportGroup Label="ExtensionSettings">
+</ImportGroup>
+<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2014|x64'" Label="PropertySheets">
+<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+<Import Project="$(Configuration).props" />
+</ImportGroup>
+<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'" Label="PropertySheets">
+<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+<Import Project="$(Configuration).props" />
+</ImportGroup>
+<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'" Label="PropertySheets">
+<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+<Import Project="$(Configuration).props" />
+</ImportGroup>
+<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'" Label="PropertySheets">
+<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+<Import Project="$(Configuration).props" />
+</ImportGroup>
+<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2014|x64'" Label="PropertySheets">
+<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+<Import Project="$(Configuration).props" />
+</ImportGroup>
+<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2015|x64'" Label="PropertySheets">
+<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+<Import Project="$(Configuration).props" />
+</ImportGroup>
+<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2016|x64'" Label="PropertySheets">
+<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+<Import Project="$(Configuration).props" />
+</ImportGroup>
+<PropertyGroup Label="UserMacros" />
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'" />
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'" />
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">
+<OutDir>..\mtco_devmodule\plug-ins</OutDir>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2015|x64'">
+<OutDir>..\mtco_devmodule\2015\plug-ins</OutDir>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2016|x64'" />
+<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2014|x64'">
+<ClCompile>
+<AdditionalOptions>/Zi /I "." /c %(AdditionalOptions)</AdditionalOptions>
+<Optimization>Disabled</Optimization>
+<AdditionalIncludeDirectories>.;$(OSL)\include;$(OIIO)/include;$(ILM_BASE)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+<PreprocessorDefinitions>CORONA_RELEASE_ASSERTS;_MBCS;OSL_STATIC_LIBRARY;USE_BOOST_WAVE;OSL_LLVM_VERSION=34;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;OIIO_STATIC_BUILD=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
+<WarningLevel>Level3</WarningLevel>
+<DisableSpecificWarnings>4996</DisableSpecificWarnings>
+</ClCompile>
+<Link>
+<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
+<OutputFile>$(Configuration)\$(ProjectName).mll</OutputFile>
+<ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
+<ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
+<GenerateDebugInformation>true</GenerateDebugInformation>
+<AdditionalLibraryDirectories>H:\UserDatenHaggi\Documents\coding\oiio\deploy\lib;H:\UserDatenHaggi\Documents\coding\OpenShadingLanguage\deploy\lib;H:\UserDatenHaggi\Documents\coding\openExr\depoly2.10\static\exr\lib;H:\UserDatenHaggi\Documents\coding\openExr\depoly2.10\static\ilmbase\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+<AdditionalDependencies>oslexec_d.lib;oslcomp_d.lib;oslquery_d.lib;H:\UserDatenHaggi\Documents\coding\llvm\llvm-3.4Deploy\Debug\lib\*.lib;Half_d.lib;Iex-2_1_d.lib;Imath-2_1_d.lib;IlmThread-2_1_d.lib;H:\UserDatenHaggi\Documents\coding\oiio\deploy\lib\OpenImageIO_d.lib;H:\UserDatenHaggi\Documents\coding\zlib\zlib-1.2.8Deploy\lib\zlibstatic.lib;H:\UserDatenHaggi\Documents\coding\png\png1610Deploy_vc10\lib\libpng16_static.lib;H:\UserDatenHaggi\Documents\coding\tiff\libtiff3.9.4Deploy\lib\libtiff.lib;H:\UserDatenHaggi\Documents\coding\jpg\jpeg-9aDeploy_vs2010\lib\jpeg.lib;IlmImf-2_1_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+</Link>
+<PostBuildEvent>
+<Command>copy $(Configuration)\$(ProjectName).mll ..\mtco_devmodule\plug-ins\$(ProjectName)_maya2014.mll</Command>
+</PostBuildEvent>
+</ItemDefinitionGroup>
+<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">
+<ClCompile>
+<Optimization>Disabled</Optimization>
+<PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
+<WarningLevel>Level3</WarningLevel>
+<DisableSpecificWarnings>4996;4244;4305</DisableSpecificWarnings>
+</ClCompile>
+<Link>
+<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
+<ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
+<ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
+<GenerateDebugInformation>true</GenerateDebugInformation>
+<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+<AdditionalDependencies>libboost_regex-vc120-mt-gd-1_55.lib;libboost_wave-vc120-mt-gd-1_55.lib;%(AdditionalDependencies)</AdditionalDependencies>
+</Link>
+<PostBuildEvent />
+<PostBuildEvent />
+</ItemDefinitionGroup>
+<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">
+<ClCompile>
+<AdditionalOptions>/Zi /I "." /c %(AdditionalOptions)</AdditionalOptions>
+<Optimization>Disabled</Optimization>
+<PreprocessorDefinitions>HAS_OVERRIDE;CORONA_RELEASE_ASSERTS;_MBCS;OSL_STATIC_LIBRARY;USE_BOOST_WAVE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;OIIO_STATIC_BUILD=1;OSL_FAST_MATH=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
+<WarningLevel>Level3</WarningLevel>
+<DisableSpecificWarnings>4996;4244;4305</DisableSpecificWarnings>
+</ClCompile>
+<Link>
+<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
+<ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
+<ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
+<GenerateDebugInformation>true</GenerateDebugInformation>
+<AdditionalDependencies>libboost_regex-vc120-mt-gd-1_55.lib;libboost_wave-vc120-mt-gd-1_55.lib;%(AdditionalDependencies)</AdditionalDependencies>
+</Link>
+<PostBuildEvent />
+<PostBuildEvent>
+<Command>
+</Command>
+</PostBuildEvent>
+</ItemDefinitionGroup>
+<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">
+<ClCompile>
+<AdditionalOptions>/Zi /I "." /c %(AdditionalOptions)</AdditionalOptions>
+<Optimization>Disabled</Optimization>
+<PreprocessorDefinitions>HAS_OVERRIDE;CORONA_RELEASE_ASSERTS;_MBCS;OSL_STATIC_LIBRARY;USE_BOOST_WAVE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;OIIO_STATIC_BUILD=1;OSL_FAST_MATH=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
+<WarningLevel>Level3</WarningLevel>
+<DisableSpecificWarnings>4996;4244;4305</DisableSpecificWarnings>
+</ClCompile>
+<Link>
+<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
+<ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
+<ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
+<GenerateDebugInformation>true</GenerateDebugInformation>
+<AdditionalDependencies>libboost_regex-vc120-mt-gd-1_55.lib;libboost_wave-vc120-mt-gd-1_55.lib;%(AdditionalDependencies)</AdditionalDependencies>
+<OutputFile>$(OutDir)$(TargetName)_maya2016$(TargetExt)</OutputFile>
+</Link>
+<PostBuildEvent />
+<PostBuildEvent>
+<Command>
+</Command>
+</PostBuildEvent>
+</ItemDefinitionGroup>
+<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2014|x64'">
+<ClCompile>
+<AdditionalOptions>/c %(AdditionalOptions)</AdditionalOptions>
+<PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
+<WarningLevel>Level3</WarningLevel>
+<DisableSpecificWarnings>4996</DisableSpecificWarnings>
+</ClCompile>
+<Link>
+<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
+<ProgramDatabaseFile>Debug/mayaToCorona.pdb</ProgramDatabaseFile>
+<ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
+</Link>
+<PostBuildEvent />
+</ItemDefinitionGroup>
+<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2015|x64'">
+<ClCompile>
+<AdditionalOptions>/c /Zc:inline %(AdditionalOptions)</AdditionalOptions>
+<PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
+<WarningLevel>Level3</WarningLevel>
+<DisableSpecificWarnings>4996</DisableSpecificWarnings>
+</ClCompile>
+<Link>
+<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
+<ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
+</Link>
+<PostBuildEvent />
+</ItemDefinitionGroup>
+<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2016|x64'">
+<ClCompile>
+<AdditionalOptions>/c /Zc:inline %(AdditionalOptions)</AdditionalOptions>
+<PrecompiledHeaderOutputFile>Debug/mayaToCorona.pch</PrecompiledHeaderOutputFile>
+<WarningLevel>Level3</WarningLevel>
+<DisableSpecificWarnings>4996</DisableSpecificWarnings>
+</ClCompile>
+<Link>
+<AdditionalOptions>/export:initializePlugin /export:uninitializePlugin /LTCG %(AdditionalOptions)</AdditionalOptions>
+<ImportLibrary>Debug/mayaToCorona.lib</ImportLibrary>
+</Link>
+<PostBuildEvent />
+</ItemDefinitionGroup>
+<ItemGroup>
+<ClCompile Include="..\mayatocommon\cpp\mayaobject.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\mayarendernodes\rendercmd.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\mayarendernodes\renderglobalsnode.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\mayarendernodes\standinlocatornode.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\mayarendernodes\standinmeshnode.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\mayascene.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\mayascenefactory.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\mayasceneparsing.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\mayasceneutils.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\memory\memoryinfo.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\osl\oslutils.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\renderglobals.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\renderglobalsfactory.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\rendering\renderer.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\renderprocess.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\shadingtools\material.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\shadingtools\shaderdefs.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\shadingtools\shadingnode.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\shadingtools\shadingutils.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\swatchesrenderer\swatchrenderer.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\swatchesrenderer\swatchrendererinterfacefactory.h" />
+<ClCompile Include="..\mayatocommon\cpp\threads\compute.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\threads\queue.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\threads\renderqueueworker.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\threads\threads.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\translators\meshtranslator.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\utilities\attrtools.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\utilities\logging.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\utilities\meshtools.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\utilities\minimap.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\utilities\pystring.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\utilities\tools.cpp" />
+<ClCompile Include="..\mayatocommon\cpp\world.cpp" />
+<ClCompile Include="..\src\coronaosl\coronaoslmaputil.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\coronaosl\oslrenderer.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronaaoshader.cpp" />
+<ClCompile Include="..\src\corona\coronacamera.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronafrontback.cpp" />
+<ClCompile Include="..\src\corona\coronaimage.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronamap.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronamixnormals.cpp" />
+<ClCompile Include="..\src\corona\coronaoslmap.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronapasses.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronacallbacks.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\corona.cpp" />
+<ClCompile Include="..\src\corona\coronageometry.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronalights.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronaroundcorners.cpp" />
+<ClCompile Include="..\src\corona\coronasettings.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronashaders.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronashadersorig.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronasky.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronautils.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronawire.cpp" />
+<ClCompile Include="..\src\corona\coronaworld.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+<ClCompile Include="..\src\mayatocorona.cpp" />
+<ClCompile Include="..\src\mtco_common\mtco_mayaobject.cpp" />
+<ClCompile Include="..\src\mtco_common\mtco_mayaobjectfactory.cpp" />
+<ClCompile Include="..\src\mtco_common\mtco_mayarenderer.cpp" />
+<ClCompile Include="..\src\mtco_common\mtco_rendererfactory.cpp" />
+<ClCompile Include="..\src\mtco_common\mtco_renderglobals.cpp" />
+<ClCompile Include="..\src\mtco_common\mtco_renderglobalsnode.cpp" />
+<ClCompile Include="..\src\mtco_common\mtco_swatchrenderer.cpp" />
+<ClCompile Include="..\src\mtco_common\mtco_swatchrendererinterfacefactory.cpp" />
+<ClCompile Include="..\src\pluginmain.cpp" />
+<ClCompile Include="..\src\rvcmd.cpp" />
+<ClCompile Include="..\src\shaders\coronaao.cpp" />
+<ClCompile Include="..\src\shaders\coronafrontbackshader.cpp" />
+<ClCompile Include="..\src\shaders\coronalayeredmaterial.cpp" />
+<ClCompile Include="..\src\shaders\coronalightmaterial.cpp" />
+<ClCompile Include="..\src\shaders\coronalightmaterialoverride.cpp" />
+<ClCompile Include="..\src\shaders\coronaoslnode.cpp" />
+<ClCompile Include="..\src\shaders\coronaraytypematerial.cpp" />
+<ClCompile Include="..\src\shaders\coronaroundcornersshader.cpp" />
+<ClCompile Include="..\src\shaders\coronaskyshader.cpp" />
+<ClCompile Include="..\src\shaders\coronasurfacematerial.cpp" />
+<ClCompile Include="..\src\shaders\coronasurfacematerialoverride.cpp" />
+<ClCompile Include="..\src\shaders\coronavolumematerial.cpp" />
+<ClCompile Include="..\src\shaders\coronavolumematerialoverride.cpp" />
+<ClCompile Include="..\src\shaders\coronawireshader.cpp" />
+<ClCompile Include="..\src\shaders\materialbase.cpp" />
+<ClCompile Include="..\src\shaders\materialbaseoverride.cpp" />
+<ClCompile Include="..\src\shaders\testshader.cpp" />
+<ClCompile Include="..\src\shaders\texturebase.cpp" />
+<ClCompile Include="..\src\corona\coronaenvironment.cpp">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClCompile>
+</ItemGroup>
+<ItemGroup>
+<ClInclude Include="..\mayatocommon\cpp\mayaobject.h" />
+<ClInclude Include="..\mayatocommon\cpp\mayaobjectfactory.h" />
+<ClInclude Include="..\mayatocommon\cpp\mayarendernodes\rendercmd.h" />
+<ClInclude Include="..\mayatocommon\cpp\mayarendernodes\renderglobalsnode.h" />
+<ClInclude Include="..\mayatocommon\cpp\mayarendernodes\standinlocatornode.h" />
+<ClInclude Include="..\mayatocommon\cpp\mayarendernodes\standinmeshnode.h" />
+<ClInclude Include="..\mayatocommon\cpp\mayascene.h" />
+<ClInclude Include="..\mayatocommon\cpp\mayascenefactory.h" />
+<ClInclude Include="..\mayatocommon\cpp\memory\memoryinfo.h" />
+<ClInclude Include="..\mayatocommon\cpp\osl\oslutils.h" />
+<ClInclude Include="..\mayatocommon\cpp\renderglobals.h" />
+<ClInclude Include="..\mayatocommon\cpp\renderglobalsfactory.h" />
+<ClInclude Include="..\mayatocommon\cpp\rendering\renderer.h" />
+<ClInclude Include="..\mayatocommon\cpp\rendering\rendererfactory.h" />
+<ClInclude Include="..\mayatocommon\cpp\renderprocess.h" />
+<ClInclude Include="..\mayatocommon\cpp\shadingtools\material.h" />
+<ClInclude Include="..\mayatocommon\cpp\shadingtools\shaderdefs.h" />
+<ClInclude Include="..\mayatocommon\cpp\shadingtools\shadingnode.h" />
+<ClInclude Include="..\mayatocommon\cpp\shadingtools\shadingutils.h" />
+<ClInclude Include="..\mayatocommon\cpp\swatchesrenderer\swatchgeometry.h" />
+<ClInclude Include="..\mayatocommon\cpp\swatchesrenderer\swatchrenderer.h" />
+<ClInclude Include="..\mayatocommon\cpp\swatchesrenderer\swatchrendererinterface.h" />
+<ClInclude Include="..\mayatocommon\cpp\threads\compute.h" />
+<ClInclude Include="..\mayatocommon\cpp\threads\queue.h" />
+<ClInclude Include="..\mayatocommon\cpp\threads\renderqueueworker.h" />
+<ClInclude Include="..\mayatocommon\cpp\threads\threads.h" />
+<ClInclude Include="..\mayatocommon\cpp\translators\meshtranslator.h" />
+<ClInclude Include="..\mayatocommon\cpp\utilities\attrtools.h" />
+<ClInclude Include="..\mayatocommon\cpp\utilities\logging.h" />
+<ClInclude Include="..\mayatocommon\cpp\utilities\meshtools.h" />
+<ClInclude Include="..\mayatocommon\cpp\utilities\minimap.h" />
+<ClInclude Include="..\mayatocommon\cpp\utilities\pystring.h" />
+<ClInclude Include="..\mayatocommon\cpp\utilities\tools.h" />
+<ClInclude Include="..\mayatocommon\cpp\world.h" />
+<ClInclude Include="..\mtco_devmodule\shaders\mayautils.h" />
+<ClInclude Include="..\mtco_devmodule\shaders\noise_utils.h" />
+<ClInclude Include="..\mtco_devmodule\shaders\oslutil.h" />
+<ClInclude Include="..\mtco_devmodule\shaders\stdosl.h" />
+<ClInclude Include="..\src\coronaosl\coronaoslmaputil.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\coronaosl\oslrenderer.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronaaoshader.h" />
+<ClInclude Include="..\src\corona\coronacamera.h" />
+<ClInclude Include="..\src\corona\coronafrontback.h" />
+<ClInclude Include="..\src\corona\coronageometry.h" />
+<ClInclude Include="..\src\corona\coronalights.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronamap.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronamixnormals.h" />
+<ClInclude Include="..\src\corona\coronaoslmap.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\corona.h" />
+<ClInclude Include="..\src\corona\coronaroundcorners.h" />
+<ClInclude Include="..\src\corona\coronashaders.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronasky.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronatestscene.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">true</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronautils.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronatestclasses.h">
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2015|x64'">true</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2016|x64'">false</ExcludedFromBuild>
+<ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2017|x64'">false</ExcludedFromBuild>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronavfb.h" />
+<ClInclude Include="..\src\corona\coronawire.h" />
+<ClInclude Include="..\src\mayatocorona.h" />
+<ClInclude Include="..\src\mtco_common\mtco_mayaobject.h" />
+<ClInclude Include="..\src\mtco_common\mtco_mayarenderer.h" />
+<ClInclude Include="..\src\mtco_common\mtco_renderglobalsnode.h" />
+<ClInclude Include="..\src\mtco_common\mtco_swatchrenderer.h" />
+<ClInclude Include="..\src\rvcmd.h" />
+<ClInclude Include="..\src\shaders\coronaao.h" />
+<ClInclude Include="..\src\shaders\coronafrontbackshader.h" />
+<ClInclude Include="..\src\shaders\coronalayeredmaterial.h" />
+<ClInclude Include="..\src\shaders\coronalightmaterial.h" />
+<ClInclude Include="..\src\shaders\coronalightmaterialoverride.h" />
+<ClInclude Include="..\src\shaders\coronaoslnode.h" />
+<ClInclude Include="..\src\shaders\coronaraytypematerial.h" />
+<ClInclude Include="..\src\shaders\coronaroundcornersshader.h" />
+<ClInclude Include="..\src\shaders\coronaskyshader.h" />
+<ClInclude Include="..\src\shaders\coronasurfacematerial.h" />
+<ClInclude Include="..\src\shaders\coronasurfacematerialoverride.h" />
+<ClInclude Include="..\src\shaders\coronavolumematerial.h" />
+<ClInclude Include="..\src\shaders\coronavolumematerialoverride.h" />
+<ClInclude Include="..\src\shaders\coronawireshader.h" />
+<ClInclude Include="..\src\shaders\materialbase.h" />
+<ClInclude Include="..\src\shaders\materialbaseoverride.h" />
+<ClInclude Include="..\src\shaders\testshader.h" />
+<ClInclude Include="..\src\shaders\texturebase.h" />
+<ClInclude Include="..\src\version.h" />
+</ItemGroup>
+<ItemGroup>
+<None Include="..\mtco_devmodule\resources\mayaStart.bat" />
+<None Include="..\mtco_devmodule\shaders\blendColors.osl" />
+<None Include="..\mtco_devmodule\shaders\bulge.osl" />
+<None Include="..\mtco_devmodule\shaders\bump2d.osl" />
+<None Include="..\mtco_devmodule\shaders\checker.osl" />
+<None Include="..\mtco_devmodule\shaders\clamp.osl" />
+<None Include="..\mtco_devmodule\shaders\colorToFloat.osl" />
+<None Include="..\mtco_devmodule\shaders\condition.osl" />
+<None Include="..\mtco_devmodule\shaders\constant.osl" />
+<None Include="..\mtco_devmodule\shaders\contrast.osl" />
+<None Include="..\mtco_devmodule\shaders\CoronaOSL.osl" />
+<None Include="..\mtco_devmodule\shaders\file.osl" />
+<None Include="..\mtco_devmodule\shaders\floatToColor.osl" />
+<None Include="..\mtco_devmodule\shaders\floatToVector.osl" />
+<None Include="..\mtco_devmodule\shaders\gammaCorrect.osl" />
+<None Include="..\mtco_devmodule\shaders\grid.osl" />
+<None Include="..\mtco_devmodule\shaders\hsvToRgb.osl" />
+<None Include="..\mtco_devmodule\shaders\luminance.osl" />
+<None Include="..\mtco_devmodule\shaders\multiplyDivide.osl" />
+<None Include="..\mtco_devmodule\shaders\noise.osl" />
+<None Include="..\mtco_devmodule\shaders\OSLInterface.osl" />
+<None Include="..\mtco_devmodule\shaders\place2dTexture.osl" />
+<None Include="..\mtco_devmodule\shaders\place3dTexture.osl" />
+<None Include="..\mtco_devmodule\shaders\projection.osl" />
+<None Include="..\mtco_devmodule\shaders\ramp.osl" />
+<None Include="..\mtco_devmodule\shaders\reverse.osl" />
+<None Include="..\mtco_devmodule\shaders\rgbToHsv.osl" />
+<None Include="..\mtco_devmodule\shaders\samplerInfo.osl" />
+<None Include="..\mtco_devmodule\shaders\samplerInfoNode.osl" />
+<None Include="..\mtco_devmodule\shaders\setRange.osl" />
+<None Include="..\mtco_devmodule\shaders\solidFractal.osl" />
+<None Include="..\mtco_devmodule\shaders\test.osl" />
+<None Include="..\mtco_devmodule\shaders\utilityNodes.osl" />
+<None Include="..\mtco_devmodule\shaders\vectorToFloat.osl" />
+</ItemGroup>
+<ItemGroup>
+<Xml Include="..\mtco_devmodule\plug-ins\CoronaLight.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\coronaLightAccum.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\coronaOutput.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\coronaCombiner.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\coronaDiffuse.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\coronaGeom.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\coronaPassThrough.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\coronaSpecular.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\CoronaSurface.xml" />
+<Xml Include="..\mtco_devmodule\plug-ins\CoronaVolume.xml" />
+<Xml Include="..\mtco_devmodule\resources\CoronaRenderer.xml" />
+</ItemGroup>
+<ItemGroup>
+<Text Include="..\mtco_devmodule\resources\releaseNotes.txt" />
+<Text Include="..\mtco_devmodule\resources\shaderDefinitions.txt" />
+</ItemGroup>
+<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+<ImportGroup Label="ExtensionTargets">
+</ImportGroup>
 </Project>

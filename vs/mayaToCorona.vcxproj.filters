@@ -1,719 +1,719 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{02db943f-c527-4ad4-a2e3-fb354307731e}</UniqueIdentifier>
-      <Extensions>cpp</Extensions>
-    </Filter>
-    <Filter Include="Miscellaneous Files">
-      <UniqueIdentifier>{c496ca20-d9e3-4ee5-95be-8ee5c51a75d4}</UniqueIdentifier>
-      <Extensions>txt</Extensions>
-    </Filter>
-    <Filter Include="common">
-      <UniqueIdentifier>{0bb19cdd-d9b0-4f91-85fb-474ac5b7f2ad}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\utilities">
-      <UniqueIdentifier>{d1712b80-a0b7-4127-a3c4-ca14ca16f47b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\shadingTools">
-      <UniqueIdentifier>{6239aafd-8b7a-4668-b3d1-8ac8df5fbdf8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\mayarendernodes">
-      <UniqueIdentifier>{8580b335-0787-4bf6-88a9-a50a4fe96c23}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Corona">
-      <UniqueIdentifier>{831bd360-ab0c-4180-b2e7-a04f84982b9c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\memory">
-      <UniqueIdentifier>{61afadec-784b-425a-96b1-43a84dbc3d2e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\threads">
-      <UniqueIdentifier>{f814a9c7-8669-4b94-b6fa-29ef951dc23d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\shaders">
-      <UniqueIdentifier>{983a5ccb-92c0-4f40-8e3f-28a9cab13b2e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="mtco_common">
-      <UniqueIdentifier>{70de2472-49c1-4d70-b529-399a19d3cda2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\rendering">
-      <UniqueIdentifier>{c1321075-f141-478e-bd26-f9286a239cdc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\translators">
-      <UniqueIdentifier>{2a28f46a-b40f-4722-b926-505c84b0ed12}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\OSLShaders">
-      <UniqueIdentifier>{9034adb2-f947-46c8-87d6-bfd0e3509064}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\coronaOSL">
-      <UniqueIdentifier>{267da3f8-bcc1-4f30-99cc-870a056014c9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\osl">
-      <UniqueIdentifier>{51255df3-650c-457f-bb65-9802b448f7d9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="common\swatchesRenderer">
-      <UniqueIdentifier>{b98b76ea-0a5e-4e6e-8036-0c45bc102238}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\shaders\xml">
-      <UniqueIdentifier>{74908600-2eb0-4288-ac8d-b3d325e5ae50}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="resources">
-      <UniqueIdentifier>{4d84e593-f220-457a-b1c8-50ab5708b41e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Corona\CoronaMaps">
-      <UniqueIdentifier>{f8bb73f3-3dcf-450d-9607-e99a36f946c0}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaObject.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaScene.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\renderGlobals.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\attrTools.cpp">
-      <Filter>common\utilities</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\logging.cpp">
-      <Filter>common\utilities</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\pystring.cpp">
-      <Filter>common\utilities</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\tools.cpp">
-      <Filter>common\utilities</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\shadingtools\material.cpp">
-      <Filter>common\shadingTools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\shadingtools\shadingNode.cpp">
-      <Filter>common\shadingTools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayarendernodes\renderGlobalsNode.cpp">
-      <Filter>common\mayarendernodes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayarendernodes\rendercmd.cpp">
-      <Filter>common\mayarendernodes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\memory\memoryInfo.cpp">
-      <Filter>common\memory</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\threads\queue.cpp">
-      <Filter>common\threads</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\threads\threads.cpp">
-      <Filter>common\threads</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mayatoCorona.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\pluginMain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\threads\renderQueueWorker.cpp">
-      <Filter>common\threads</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\MiniMap.cpp">
-      <Filter>common\utilities</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\Corona.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaGeometry.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaLights.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mtco_common\mtco_mayaObject.cpp">
-      <Filter>mtco_common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mtco_common\mtco_renderGlobals.cpp">
-      <Filter>mtco_common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mtco_common\mtco_renderGlobalsNode.cpp">
-      <Filter>mtco_common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaUtils.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\rendering\renderer.cpp">
-      <Filter>common\rendering</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\materialBase.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\textureBase.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\materialBaseOverride.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayarendernodes\standinLocatorNode.cpp">
-      <Filter>common\mayarendernodes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayarendernodes\standinMeshNode.cpp">
-      <Filter>common\mayarendernodes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\shadingtools\shadingUtils.cpp">
-      <Filter>common\shadingTools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\translators\meshTranslator.cpp">
-      <Filter>common\translators</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaCamera.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaEnvironment.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\shadingtools\shaderDefs.cpp">
-      <Filter>common\shadingTools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaCallbacks.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaSurfaceMaterial.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaSurfaceMaterialOverride.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaSettings.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaPasses.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaOSLNode.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\coronaOSL\oslRenderer.cpp">
-      <Filter>Source Files\coronaOSL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\osl\oslUtils.cpp">
-      <Filter>common\osl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaWorld.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\world.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchRenderer.cpp">
-      <Filter>common\swatchesRenderer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchRendererInterfaceFactory.h">
-      <Filter>common\swatchesRenderer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mtco_common\mtco_swatchRenderer.cpp">
-      <Filter>mtco_common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mtco_common\mtco_swatchRendererInterfaceFactory.cpp">
-      <Filter>mtco_common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaShadersOrig.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaShaders.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\TestShader.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\coronaOSL\coronaOSLMapUtil.cpp">
-      <Filter>Source Files\coronaOSL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaImage.cpp">
-      <Filter>Source Files\Corona</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaLightMaterial.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaVolumeMaterial.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaLightMaterialOverride.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaVolumeMaterialOverride.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaRaytypeMaterial.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaSceneParsing.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaSceneUtils.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\mayaSceneFactory.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\renderGlobalsFactory.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mtco_common\mtco_rendererFactory.cpp">
-      <Filter>mtco_common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mtco_common\mtco_mayaObjectFactory.cpp">
-      <Filter>mtco_common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\threads\Compute.cpp">
-      <Filter>common\threads</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\renderProcess.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rvCmd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\mtco_common\mtco_mayaRenderer.cpp">
-      <Filter>mtco_common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaLayeredMaterial.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaAO.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaSkyShader.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaAOShader.cpp">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaOSLMap.cpp">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaSky.cpp">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaWire.cpp">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaFrontBack.cpp">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaWireShader.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaFrontBackShader.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaMap.cpp">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mayaToCommon\cpp\utilities\meshTools.cpp">
-      <Filter>common\utilities</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaRoundCorners.cpp">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\shaders\coronaRoundCornersShader.cpp">
-      <Filter>Source Files\shaders</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Corona\CoronaMixNormals.cpp">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayaObject.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayaScene.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\renderGlobals.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\logging.h">
-      <Filter>common\utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\attrTools.h">
-      <Filter>common\utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\pystring.h">
-      <Filter>common\utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\tools.h">
-      <Filter>common\utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\shadingtools\material.h">
-      <Filter>common\shadingTools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\shadingtools\shadingNode.h">
-      <Filter>common\shadingTools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayarendernodes\rendercmd.h">
-      <Filter>common\mayarendernodes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayarendernodes\renderGlobalsNode.h">
-      <Filter>common\mayarendernodes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\memory\memoryInfo.h">
-      <Filter>common\memory</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\threads\queue.h">
-      <Filter>common\threads</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\threads\threads.h">
-      <Filter>common\threads</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\threads\renderQueueWorker.h">
-      <Filter>common\threads</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\MiniMap.h">
-      <Filter>common\utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\Corona.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\mayatoCorona.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\mtco_common\mtco_renderGlobalsNode.h">
-      <Filter>mtco_common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\rendering\renderer.h">
-      <Filter>common\rendering</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\mtco_common\mtco_mayaObject.h">
-      <Filter>mtco_common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\materialBase.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\textureBase.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\materialBaseOverride.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayarendernodes\standinMeshNode.h">
-      <Filter>common\mayarendernodes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayarendernodes\standinLocatorNode.h">
-      <Filter>common\mayarendernodes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\shadingtools\shadingUtils.h">
-      <Filter>common\shadingTools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\translators\meshTranslator.h">
-      <Filter>common\translators</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\shadingtools\shaderDefs.h">
-      <Filter>common\shadingTools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaSurfaceMaterial.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaSurfaceMaterialOverride.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayaSceneFactory.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaOSLNode.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaLights.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\coronaOSL\oslRenderer.h">
-      <Filter>Source Files\coronaOSL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\osl\oslUtils.h">
-      <Filter>common\osl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\world.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchGeometry.h">
-      <Filter>common\swatchesRenderer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchRenderer.h">
-      <Filter>common\swatchesRenderer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\swatchesRenderer\swatchRendererInterface.h">
-      <Filter>common\swatchesRenderer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\mtco_common\mtco_swatchRenderer.h">
-      <Filter>mtco_common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaShaders.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\TestShader.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\coronaOSL\coronaOSLMapUtil.h">
-      <Filter>Source Files\coronaOSL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaUtils.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaLightMaterial.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaVolumeMaterial.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaLightMaterialOverride.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaVolumeMaterialOverride.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaRaytypeMaterial.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\renderGlobalsFactory.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\mayaObjectFactory.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\rendering\rendererFactory.h">
-      <Filter>common\rendering</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\threads\Compute.h">
-      <Filter>common\threads</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaTestScene.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\renderProcess.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaTestClasses.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\rvCmd.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\mtco_common\mtco_mayaRenderer.h">
-      <Filter>mtco_common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Version.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaLayeredMaterial.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mtco_devmodule\shaders\mayaUtils.h">
-      <Filter>Source Files\OSLShaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mtco_devmodule\shaders\noise_utils.h">
-      <Filter>Source Files\OSLShaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mtco_devmodule\shaders\oslutil.h">
-      <Filter>Source Files\OSLShaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mtco_devmodule\shaders\stdosl.h">
-      <Filter>Source Files\OSLShaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaVFB.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaAO.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaSkyShader.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaAOShader.h">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaOSLMap.h">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaSky.h">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaWire.h">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaFrontBack.h">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaWireShader.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaFrontBackShader.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaMap.h">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaCamera.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaGeometry.h">
-      <Filter>Source Files\Corona</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\mayaToCommon\cpp\utilities\meshTools.h">
-      <Filter>common\utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaRoundCorners.h">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\shaders\coronaRoundCornersShader.h">
-      <Filter>Source Files\shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Corona\CoronaMixNormals.h">
-      <Filter>Source Files\Corona\CoronaMaps</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\mtco_devmodule\shaders\constant.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\file.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\place2dTexture.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\test.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\CoronaOSL.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\resources\mayaStart.bat">
-      <Filter>resources</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\blendColors.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\bulge.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\bump2d.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\checker.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\clamp.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\colorToFloat.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\condition.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\contrast.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\floatToColor.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\floatToVector.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\gammaCorrect.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\grid.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\hsvToRgb.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\luminance.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\multiplyDivide.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\noise.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\OSLInterface.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\place3dTexture.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\projection.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\ramp.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\reverse.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\rgbToHsv.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\samplerInfo.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\samplerInfoNode.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\setRange.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\solidFractal.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\utilityNodes.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-    <None Include="..\mtco_devmodule\shaders\vectorToFloat.osl">
-      <Filter>Source Files\OSLShaders</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaCombiner.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaDiffuse.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaGeom.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaPassThrough.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaSpecular.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaLightAccum.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\coronaOutput.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\CoronaSurface.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\CoronaLight.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\plug-ins\CoronaVolume.xml">
-      <Filter>Source Files\shaders\xml</Filter>
-    </Xml>
-    <Xml Include="..\mtco_devmodule\resources\CoronaRenderer.xml">
-      <Filter>resources</Filter>
-    </Xml>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\mtco_devmodule\resources\releaseNotes.txt">
-      <Filter>resources</Filter>
-    </Text>
-    <Text Include="..\mtco_devmodule\resources\shaderDefinitions.txt">
-      <Filter>resources</Filter>
-    </Text>
-  </ItemGroup>
+<ItemGroup>
+<Filter Include="Source Files">
+<UniqueIdentifier>{02db943f-c527-4ad4-a2e3-fb354307731e}</UniqueIdentifier>
+<Extensions>cpp</Extensions>
+</Filter>
+<Filter Include="Miscellaneous Files">
+<UniqueIdentifier>{c496ca20-d9e3-4ee5-95be-8ee5c51a75d4}</UniqueIdentifier>
+<Extensions>txt</Extensions>
+</Filter>
+<Filter Include="common">
+<UniqueIdentifier>{0bb19cdd-d9b0-4f91-85fb-474ac5b7f2ad}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\utilities">
+<UniqueIdentifier>{d1712b80-a0b7-4127-a3c4-ca14ca16f47b}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\shadingTools">
+<UniqueIdentifier>{6239aafd-8b7a-4668-b3d1-8ac8df5fbdf8}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\mayarendernodes">
+<UniqueIdentifier>{8580b335-0787-4bf6-88a9-a50a4fe96c23}</UniqueIdentifier>
+</Filter>
+<Filter Include="Source Files\Corona">
+<UniqueIdentifier>{831bd360-ab0c-4180-b2e7-a04f84982b9c}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\memory">
+<UniqueIdentifier>{61afadec-784b-425a-96b1-43a84dbc3d2e}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\threads">
+<UniqueIdentifier>{f814a9c7-8669-4b94-b6fa-29ef951dc23d}</UniqueIdentifier>
+</Filter>
+<Filter Include="Source Files\shaders">
+<UniqueIdentifier>{983a5ccb-92c0-4f40-8e3f-28a9cab13b2e}</UniqueIdentifier>
+</Filter>
+<Filter Include="mtco_common">
+<UniqueIdentifier>{70de2472-49c1-4d70-b529-399a19d3cda2}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\rendering">
+<UniqueIdentifier>{c1321075-f141-478e-bd26-f9286a239cdc}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\translators">
+<UniqueIdentifier>{2a28f46a-b40f-4722-b926-505c84b0ed12}</UniqueIdentifier>
+</Filter>
+<Filter Include="Source Files\OSLShaders">
+<UniqueIdentifier>{9034adb2-f947-46c8-87d6-bfd0e3509064}</UniqueIdentifier>
+</Filter>
+<Filter Include="Source Files\coronaOSL">
+<UniqueIdentifier>{267da3f8-bcc1-4f30-99cc-870a056014c9}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\osl">
+<UniqueIdentifier>{51255df3-650c-457f-bb65-9802b448f7d9}</UniqueIdentifier>
+</Filter>
+<Filter Include="common\swatchesRenderer">
+<UniqueIdentifier>{b98b76ea-0a5e-4e6e-8036-0c45bc102238}</UniqueIdentifier>
+</Filter>
+<Filter Include="Source Files\shaders\xml">
+<UniqueIdentifier>{74908600-2eb0-4288-ac8d-b3d325e5ae50}</UniqueIdentifier>
+</Filter>
+<Filter Include="resources">
+<UniqueIdentifier>{4d84e593-f220-457a-b1c8-50ab5708b41e}</UniqueIdentifier>
+</Filter>
+<Filter Include="Source Files\Corona\CoronaMaps">
+<UniqueIdentifier>{f8bb73f3-3dcf-450d-9607-e99a36f946c0}</UniqueIdentifier>
+</Filter>
+</ItemGroup>
+<ItemGroup>
+<ClCompile Include="..\mayatocommon\cpp\mayaobject.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\mayascene.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\renderglobals.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\utilities\attrtools.cpp">
+<Filter>common\utilities</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\utilities\logging.cpp">
+<Filter>common\utilities</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\utilities\pystring.cpp">
+<Filter>common\utilities</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\utilities\tools.cpp">
+<Filter>common\utilities</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\shadingtools\material.cpp">
+<Filter>common\shadingTools</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\shadingtools\shadingnode.cpp">
+<Filter>common\shadingTools</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\mayarendernodes\renderglobalsnode.cpp">
+<Filter>common\mayarendernodes</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\mayarendernodes\rendercmd.cpp">
+<Filter>common\mayarendernodes</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\memory\memoryinfo.cpp">
+<Filter>common\memory</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\threads\queue.cpp">
+<Filter>common\threads</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\threads\threads.cpp">
+<Filter>common\threads</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mayatocorona.cpp">
+<Filter>Source Files</Filter>
+</ClCompile>
+<ClCompile Include="..\src\pluginmain.cpp">
+<Filter>Source Files</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\threads\renderqueueworker.cpp">
+<Filter>common\threads</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\utilities\minimap.cpp">
+<Filter>common\utilities</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\corona.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronageometry.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronalights.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mtco_common\mtco_mayaobject.cpp">
+<Filter>mtco_common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mtco_common\mtco_renderglobals.cpp">
+<Filter>mtco_common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mtco_common\mtco_renderglobalsnode.cpp">
+<Filter>mtco_common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronautils.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\rendering\renderer.cpp">
+<Filter>common\rendering</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\materialbase.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\texturebase.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\materialbaseoverride.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\mayarendernodes\standinlocatornode.cpp">
+<Filter>common\mayarendernodes</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\mayarendernodes\standinmeshnode.cpp">
+<Filter>common\mayarendernodes</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\shadingtools\shadingutils.cpp">
+<Filter>common\shadingTools</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\translators\meshtranslator.cpp">
+<Filter>common\translators</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronacamera.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronaenvironment.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\shadingtools\shaderdefs.cpp">
+<Filter>common\shadingTools</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronacallbacks.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronasurfacematerial.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronasurfacematerialoverride.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronasettings.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronapasses.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronaoslnode.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\coronaosl\oslrenderer.cpp">
+<Filter>Source Files\coronaOSL</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\osl\oslutils.cpp">
+<Filter>common\osl</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronaworld.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\world.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\swatchesrenderer\swatchrenderer.cpp">
+<Filter>common\swatchesRenderer</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\swatchesrenderer\swatchrendererinterfacefactory.h">
+<Filter>common\swatchesRenderer</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mtco_common\mtco_swatchrenderer.cpp">
+<Filter>mtco_common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mtco_common\mtco_swatchrendererinterfacefactory.cpp">
+<Filter>mtco_common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronashadersorig.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronashaders.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\testshader.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\coronaosl\coronaoslmaputil.cpp">
+<Filter>Source Files\coronaOSL</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronaimage.cpp">
+<Filter>Source Files\Corona</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronalightmaterial.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronavolumematerial.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronalightmaterialoverride.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronavolumematerialoverride.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronaraytypematerial.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\mayasceneparsing.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\mayasceneutils.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\mayascenefactory.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\renderglobalsfactory.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mtco_common\mtco_rendererfactory.cpp">
+<Filter>mtco_common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mtco_common\mtco_mayaobjectfactory.cpp">
+<Filter>mtco_common</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\threads\compute.cpp">
+<Filter>common\threads</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\renderprocess.cpp">
+<Filter>common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\rvcmd.cpp">
+<Filter>Source Files</Filter>
+</ClCompile>
+<ClCompile Include="..\src\mtco_common\mtco_mayarenderer.cpp">
+<Filter>mtco_common</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronalayeredmaterial.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronaao.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronaskyshader.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronaaoshader.cpp">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronaoslmap.cpp">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronasky.cpp">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronawire.cpp">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronafrontback.cpp">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronawireshader.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronafrontbackshader.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronamap.cpp">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClCompile>
+<ClCompile Include="..\mayatocommon\cpp\utilities\meshtools.cpp">
+<Filter>common\utilities</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronaroundcorners.cpp">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClCompile>
+<ClCompile Include="..\src\shaders\coronaroundcornersshader.cpp">
+<Filter>Source Files\shaders</Filter>
+</ClCompile>
+<ClCompile Include="..\src\corona\coronamixnormals.cpp">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClCompile>
+</ItemGroup>
+<ItemGroup>
+<ClInclude Include="..\mayatocommon\cpp\mayaobject.h">
+<Filter>common</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\mayascene.h">
+<Filter>common</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\renderglobals.h">
+<Filter>common</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\utilities\logging.h">
+<Filter>common\utilities</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\utilities\attrtools.h">
+<Filter>common\utilities</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\utilities\pystring.h">
+<Filter>common\utilities</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\utilities\tools.h">
+<Filter>common\utilities</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\shadingtools\material.h">
+<Filter>common\shadingTools</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\shadingtools\shadingnode.h">
+<Filter>common\shadingTools</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\mayarendernodes\rendercmd.h">
+<Filter>common\mayarendernodes</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\mayarendernodes\renderglobalsnode.h">
+<Filter>common\mayarendernodes</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\memory\memoryinfo.h">
+<Filter>common\memory</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\threads\queue.h">
+<Filter>common\threads</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\threads\threads.h">
+<Filter>common\threads</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\threads\renderqueueworker.h">
+<Filter>common\threads</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\utilities\minimap.h">
+<Filter>common\utilities</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\corona.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\src\mayatocorona.h">
+<Filter>Source Files</Filter>
+</ClInclude>
+<ClInclude Include="..\src\mtco_common\mtco_renderglobalsnode.h">
+<Filter>mtco_common</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\rendering\renderer.h">
+<Filter>common\rendering</Filter>
+</ClInclude>
+<ClInclude Include="..\src\mtco_common\mtco_mayaobject.h">
+<Filter>mtco_common</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\materialbase.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\texturebase.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\materialbaseoverride.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\mayarendernodes\standinmeshnode.h">
+<Filter>common\mayarendernodes</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\mayarendernodes\standinlocatornode.h">
+<Filter>common\mayarendernodes</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\shadingtools\shadingutils.h">
+<Filter>common\shadingTools</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\translators\meshtranslator.h">
+<Filter>common\translators</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\shadingtools\shaderdefs.h">
+<Filter>common\shadingTools</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronasurfacematerial.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronasurfacematerialoverride.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\mayascenefactory.h">
+<Filter>common</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronaoslnode.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronalights.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\src\coronaosl\oslrenderer.h">
+<Filter>Source Files\coronaOSL</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\osl\oslutils.h">
+<Filter>common\osl</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\world.h">
+<Filter>common</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\swatchesrenderer\swatchgeometry.h">
+<Filter>common\swatchesRenderer</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\swatchesrenderer\swatchrenderer.h">
+<Filter>common\swatchesRenderer</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\swatchesrenderer\swatchrendererinterface.h">
+<Filter>common\swatchesRenderer</Filter>
+</ClInclude>
+<ClInclude Include="..\src\mtco_common\mtco_swatchrenderer.h">
+<Filter>mtco_common</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronashaders.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\testshader.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\coronaosl\coronaoslmaputil.h">
+<Filter>Source Files\coronaOSL</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronautils.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronalightmaterial.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronavolumematerial.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronalightmaterialoverride.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronavolumematerialoverride.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronaraytypematerial.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\renderglobalsfactory.h">
+<Filter>common</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\mayaobjectfactory.h">
+<Filter>common</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\rendering\rendererfactory.h">
+<Filter>common\rendering</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\threads\compute.h">
+<Filter>common\threads</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronatestscene.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\renderprocess.h">
+<Filter>common</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronatestclasses.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\src\rvcmd.h">
+<Filter>Source Files</Filter>
+</ClInclude>
+<ClInclude Include="..\src\mtco_common\mtco_mayarenderer.h">
+<Filter>mtco_common</Filter>
+</ClInclude>
+<ClInclude Include="..\src\version.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronalayeredmaterial.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\mtco_devmodule\shaders\mayautils.h">
+<Filter>Source Files\OSLShaders</Filter>
+</ClInclude>
+<ClInclude Include="..\mtco_devmodule\shaders\noise_utils.h">
+<Filter>Source Files\OSLShaders</Filter>
+</ClInclude>
+<ClInclude Include="..\mtco_devmodule\shaders\oslutil.h">
+<Filter>Source Files\OSLShaders</Filter>
+</ClInclude>
+<ClInclude Include="..\mtco_devmodule\shaders\stdosl.h">
+<Filter>Source Files\OSLShaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronavfb.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronaao.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronaskyshader.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronaaoshader.h">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronaoslmap.h">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronasky.h">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronawire.h">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronafrontback.h">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronawireshader.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronafrontbackshader.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronamap.h">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronacamera.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronageometry.h">
+<Filter>Source Files\Corona</Filter>
+</ClInclude>
+<ClInclude Include="..\mayatocommon\cpp\utilities\meshtools.h">
+<Filter>common\utilities</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronaroundcorners.h">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClInclude>
+<ClInclude Include="..\src\shaders\coronaroundcornersshader.h">
+<Filter>Source Files\shaders</Filter>
+</ClInclude>
+<ClInclude Include="..\src\corona\coronamixnormals.h">
+<Filter>Source Files\Corona\CoronaMaps</Filter>
+</ClInclude>
+</ItemGroup>
+<ItemGroup>
+<None Include="..\mtco_devmodule\shaders\constant.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\file.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\place2dTexture.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\test.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\CoronaOSL.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\resources\mayaStart.bat">
+<Filter>resources</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\blendColors.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\bulge.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\bump2d.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\checker.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\clamp.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\colorToFloat.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\condition.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\contrast.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\floatToColor.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\floatToVector.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\gammaCorrect.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\grid.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\hsvToRgb.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\luminance.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\multiplyDivide.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\noise.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\OSLInterface.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\place3dTexture.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\projection.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\ramp.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\reverse.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\rgbToHsv.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\samplerInfo.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\samplerInfoNode.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\setRange.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\solidFractal.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\utilityNodes.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+<None Include="..\mtco_devmodule\shaders\vectorToFloat.osl">
+<Filter>Source Files\OSLShaders</Filter>
+</None>
+</ItemGroup>
+<ItemGroup>
+<Xml Include="..\mtco_devmodule\plug-ins\coronaCombiner.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\coronaDiffuse.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\coronaGeom.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\coronaPassThrough.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\coronaSpecular.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\coronaLightAccum.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\coronaOutput.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\CoronaSurface.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\CoronaLight.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\plug-ins\CoronaVolume.xml">
+<Filter>Source Files\shaders\xml</Filter>
+</Xml>
+<Xml Include="..\mtco_devmodule\resources\CoronaRenderer.xml">
+<Filter>resources</Filter>
+</Xml>
+</ItemGroup>
+<ItemGroup>
+<Text Include="..\mtco_devmodule\resources\releaseNotes.txt">
+<Filter>resources</Filter>
+</Text>
+<Text Include="..\mtco_devmodule\resources\shaderDefinitions.txt">
+<Filter>resources</Filter>
+</Text>
+</ItemGroup>
 </Project>
