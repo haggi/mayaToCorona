@@ -18,6 +18,7 @@
     <TIFFA>H:\UserDatenHaggi\Documents\coding\appleseed-deps\stage\libtiff-release</TIFFA>
     <TIFF>H:\UserDatenHaggi\Documents\coding\tiff\libtiff3.9.4Deploy</TIFF>
     <MAYA_INCLUDE>H:\UserDatenHaggi\Documents\coding\devkit_2017\devkitBase\include</MAYA_INCLUDE>
+    <COMMON>..\mayatocommon\cpp</COMMON>
   </PropertyGroup>
   <PropertyGroup>
     <TargetExt>.mll</TargetExt>
@@ -25,7 +26,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(CORONA_ROOT)\include;$(BOOST_ROOT)\include;$(MAYA_INCLUDE);..\..\common\cpp;$(OSL)/include;$(OIIO)/include;$(ILM_BASE)/include;$(OPENEXR)/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(COMMON);$(CORONA_ROOT)\include;$(BOOST_ROOT)\include;$(MAYA_INCLUDE);$(OSL)/include;$(OIIO)/include;$(ILM_BASE)/include;$(OPENEXR)/include</AdditionalIncludeDirectories>
       <MinimalRebuild>true</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -100,6 +101,10 @@
     </BuildMacro>
     <BuildMacro Include="MAYA_INCLUDE">
       <Value>$(MAYA_INCLUDE)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="COMMON">
+      <Value>$(COMMON)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
   </ItemGroup>

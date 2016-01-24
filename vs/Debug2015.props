@@ -14,6 +14,7 @@
     <JPEG>H:\UserDatenHaggi\Documents\coding\jpg\jpeg-9aDeploy_vs2013</JPEG>
     <ZLIB>H:\UserDatenHaggi\Documents\coding\zlib\zlib-1.2.8Deploy</ZLIB>
     <PNG>H:\UserDatenHaggi\Documents\coding\png\png1610Deploy_vs2013</PNG>
+    <COOMON>..\mayatocommon\cpp</COOMON>
   </PropertyGroup>
   <PropertyGroup>
     <TargetExt>.mll</TargetExt>
@@ -21,7 +22,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(CORONA_ROOT)\include;$(BOOST_ROOT)\include;$(MAYA_ROOT)\include;..\..\common\cpp;$(OSL)/include;$(OIIO)/include;$(ILM_BASE)/include;$(OPENEXR)/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(COMMON);$(CORONA_ROOT)\include;$(BOOST_ROOT)\include;$(MAYA_INCLUDE);$(OSL)/include;$(OIIO)/include;$(ILM_BASE)/include;$(OPENEXR)/include</AdditionalIncludeDirectories>
       <MinimalRebuild>true</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -80,6 +81,10 @@
     </BuildMacro>
     <BuildMacro Include="PNG">
       <Value>$(PNG)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="COOMON">
+      <Value>$(COOMON)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
   </ItemGroup>

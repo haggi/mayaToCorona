@@ -19,7 +19,7 @@
     <TIFFA>$(CODING_ROOT)\appleseed-deps\stage\libtiff-release</TIFFA>
     <TIFF>$(CODING_ROOT)\tiff\libtiff3.9.4Deploy</TIFF>
     <MAYA_INCLUDE>$(CODING_ROOT)\devkit_2016\devkitBase\include</MAYA_INCLUDE>
-    <COMMON>$(CODING_ROOT)\mayaToCommon\cpp</COMMON>
+    <COMMON>..\mayatocommon\cpp</COMMON>
   </PropertyGroup>
   <PropertyGroup>
     <TargetExt>.mll</TargetExt>
